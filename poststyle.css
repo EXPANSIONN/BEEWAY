@@ -1,0 +1,81 @@
+
+/* Los estilos que tenías previamente para otros elementos se mantienen igual */
+.title-container {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 20px;
+}
+
+/* Estilos para el slider */
+.slider-container {
+  width: 120%; /* Ancho del slider */
+  margin: 0 auto; /* Centrar el slider horizontalmente */
+  overflow: hidden;
+  position: relative;
+  margin-top: 20px; /* Espacio superior personalizado */
+}
+
+.slide img {
+  width: 200px; /* Ancho fijo para todas las imágenes */
+  height: 50px; /* Alto fijo para todas las imágenes */
+  object-fit: cover; /* Escalar la imagen para cubrir el contenedor manteniendo su relación de aspecto */
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 200px; /* Ancho mínimo de cada slide */
+  overflow: hidden;
+  margin: 0 1px; /* Espacio entre slides */
+}
+
+/* Estilos para el contenedor principal */
+.container {
+  margin-top: 100px; /* Separación de 100px entre el slider y las hileras */
+}
+
+/* Estilos para las hileras */
+.row-container {
+  display: flex;
+  flex-direction: column;
+  gap: 70px; /* Espacio entre las filas */
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Estilos para los objetos */
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px; /* Ancho del contenedor de la imagen */
+  height: 400px; /* Alto del contenedor de la imagen */
+}
+
+.image {
+  width: 240px; /* Ancho de cada imagen */
+  height: 390px; /* Alto de cada imagen */
+  position: relative;
+  overflow: hidden;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Ajustar la imagen dentro del contenedor manteniendo su relación de aspecto */
+}
+
+/* Estilos para la descripción de los objetos */
+.description {
+  font-family: 'Courier New', Courier, monospace; /* Fuente de máquina de escribir */
+  font-size: 14px; /* Tamaño de fuente */
+  text-align: center; /* Centrar el texto */
+  margin-top: 10px; /* Espacio superior */
+}

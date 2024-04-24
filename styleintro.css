@@ -1,0 +1,87 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #fc5500; /* Fondo naranja */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #fff; /* Color del texto */
+}
+
+.square {
+    position: relative;
+    width: 300px; /* Ancho del cuadrado */
+    height: 200px; /* Alto del cuadrado */
+    background-color: #fff; /* Color de fondo del cuadrado */
+    background-image: url('white-paper-texture.jpg'); /* URL de tu imagen */
+    background-size: cover; /* La imagen se ajustará al cuadrado, recortando si es necesario */
+    background-position: center; /* La imagen se centrará dentro del cuadrado */
+    padding: 20px; /* Añadir espacio alrededor del cuadrado */
+}
+
+.typewriter {
+    font-family: 'Courier New', Courier, monospace; /* Tipografía de máquina de escribir */
+    color: #000; /* Color del texto: negro */
+    font-size: 38px; /* Tamaño del texto */
+    text-align: left; /* Alinear texto a la izquierda */
+    position: absolute; /* Posicionamiento absoluto para ajustar posición */
+    left: 50%; /* Centrar en el eje x */
+    transform: translateX(-50%); /* Centrar horizontalmente */
+}
+
+.typewriter-small {
+    font-family: 'Courier New', Courier, monospace; /* Tipografía de máquina de escribir */
+    color: #000; /* Color del texto: negro */
+    font-size: 15px; /* Tamaño del texto más pequeño */
+    text-align: left; /* Alinear texto a la izquierda */
+    position: absolute; /* Posicionamiento absoluto para ajustar posición */
+    left: 50%; /* Centrar en el eje x */
+    transform: translateX(-50%); /* Centrar horizontalmente */
+    
+}
+
+
+.typewriter3{
+    
+    color: #000; /* Color del texto: negro */
+    font-size: 100px; /* Tamaño del texto más pequeño */
+    text-align: left; /* Alinear texto a la izquierda */
+    position: absolute; /* Posicionamiento absoluto para ajustar posición */
+    left: 160%; /* Centrar en el eje x */
+    transform: translateX(-50%); /* Centrar horizontalmente */
+    
+}
+
+input[type="password"] {
+    font-family: 'Courier New', Courier, monospace; /* Tipografía de máquina de escribir */
+    padding: 8px; /* Reducir el padding */
+    border: 2px solid #000; /* Borde negro */
+    background-color: transparent; /* Fondo transparente */
+    color: #000; /* Color del texto: negro */
+    text-align: center;
+    width: calc(60% - 9px); /* Ancho del campo de contraseña */
+    font-size: 12px; /* Tamaño de fuente fijo */
+    outline: none; /* Eliminar el resaltado de foco */
+    position: absolute; /* Posicionamiento absoluto para ajustar posición */
+    left: 35%; /* Centrar en el eje x */
+    bottom: 10px; /* Ajustar posición en la parte inferior */
+    transform: translateX(-50%); /* Centrar horizontalmente */
+}
+.ingresar-button {
+    font-family: 'Courier New', Courier, monospace; /* Tipografía de máquina de escribir */
+    color: #d6d5d0; /* Color del texto: negro */
+    background-color: #000; /* Fondo transparente */
+    border: 2px solid #000; /* Borde */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    padding: 9px 12px; /* Añadir espacio alrededor del texto */
+    width: calc(28% - 7px); /* Ancho del campo de contraseña */
+    position: absolute; /* Posicionamiento absoluto para ajustar posición */
+    right: 10px; /* Posición horizontal a la derecha */
+    bottom: 10px; /* Posición vertical abajo */
+}
